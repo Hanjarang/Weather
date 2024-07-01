@@ -13,5 +13,6 @@ public class GlobalExceptionHandler {
     public Exception handleAllException() {
         System.out.println("error from GlobalExceptionHandler");
         return new Exception();
+        
     }
 }
